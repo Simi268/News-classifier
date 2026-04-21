@@ -145,7 +145,7 @@ def main():
     )
 
     print("Starting training...")
-    trainer.train(resume_from_checkpoint=True)
+    trainer.train()
 
     print("Saving best model...")
     trainer.save_model(OUTPUT_DIR)
