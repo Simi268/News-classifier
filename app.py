@@ -146,4 +146,4 @@ if predict_btn:
 # ==============================
 
 st.markdown("---")
-st.caption("Built with ❤️ using BERT + Streamlit")
+st.caption("Built using BERT + Streamlit")
