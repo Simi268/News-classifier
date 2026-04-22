@@ -1,30 +1,42 @@
-# 📰 BERT News Classifier
+# 📰 AI News Classifier
 
-A deep learning project that classifies news articles into categories using **BERT (Bidirectional Encoder Representations from Transformers)** and HuggingFace Transformers.
+A machine learning web application that classifies news headlines into categories using a fine-tuned BERT model.
+
+🔗 **Live Demo:** https://huggingface.co/spaces/Simik26/news-classifier-app
+
+---
+
+## 🚀 Features
+
+- Real-time news classification
+- Confidence score display
+- Top predicted categories
+- Clean and interactive UI
+- Deployed using Hugging Face Spaces
+
+---
+
+## 🧠 Model Details
+
+- Model: BERT (bert-base-uncased)
+- Fine-tuned for news classification
+- Framework: PyTorch + Hugging Face Transformers
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- PyTorch
+- Transformers (Hugging Face)
+- Streamlit
+- Hugging Face Spaces
+
+---
 
 
-## 🚀 Overview
-
-This project builds an end-to-end NLP pipeline to classify news headlines and descriptions into predefined categories such as:
-
-- Politics  
-- Business  
-- Technology  
-- Sports  
-- Entertainment  
-- Wellness  
-- and more...
-
-The model is fine-tuned on a real-world dataset using **BERT**, achieving strong performance on multi-class text classification.
 
 
-## 🧠 Model
 
-- Model: `bert-base-uncased`
-- Framework: HuggingFace Transformers
-- Task: Multi-class text classification
-- Metrics:
-  - Accuracy
-  - F1-score (macro)
 
 
